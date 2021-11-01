@@ -1,0 +1,160 @@
+.headerCnt {
+  background-color: #fff;
+  height: 100px;
+  box-shadow: 5px 1px 12px 2px #eee;
+  margin: 0 0 20px 0;
+}
+
+.logoCnt {
+  display: flex;
+  align-items: center;
+  height: 93px;
+  width: 137px;
+  float: left;
+  cursor: pointer;
+}
+
+.right_menu {
+  display: flex;
+  height: 100%;
+  float: right;
+}
+
+.navCnt {
+  float: left;
+  display: flex;
+  width: 60%;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav > ul {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.nav > ul > li {
+  line-height: 24px;
+  height: 100%;
+
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  padding: 0 30px;
+}
+
+.nav > ul > li > a {
+  color: #000;
+  font-size: 22px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.nav > ul > li:hover {
+  background: linear-gradient(101.42deg, #e01e3c 0.82%, #ff8300 99.6%);
+}
+
+.active {
+  background: linear-gradient(101.42deg, #e01e3c 0.82%, #ff8300 99.6%);
+}
+
+nav ul li:hover a {
+  color: #fff;
+}
+
+.list_image {
+  float: right;
+}
+
+.link > a {
+  color: #d61937 !important;
+}
+/******Sub Cnt***/
+.sub_menu_cnt {
+  position: absolute;
+  width: 1200px;
+  background: #fff;
+  border-radius: 4px;
+  top: 93px;
+  z-index: 3;
+  left: -140px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.14);
+}
+
+.sub_list {
+  float: left;
+}
+
+.sub_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub_list > ul {
+  padding: 0 20px 0 20px;
+}
+
+.sub_list > ul > li {
+  padding: 20px;
+  list-style: none;
+  text-align: left;
+  display: block;
+}
+
+.sub_list > ul > li:hover {
+  border-bottom: 2px solid orange;
+}
+
+.sub_list > ul > li:hover > a {
+  color: rgb(224, 146, 1) !important;
+}
+
+.mask_img {
+  background: url(../../assets/mask1.svg) no-repeat;
+  background-size: cover;
+}
+
+.sub_list > ul > li > a {
+  color: black !important;
+  font-size: 18px;
+}
+
+/***Book a test****/
+.right_menu {
+  height: 100px;
+}
+.book_test_btn {
+  width: 190px;
+  height: 100%;
+  display: flex;
+  float: right;
+  transition: all 0.5s;
+  background: linear-gradient(107.28deg, #e01e3c 0.82%, #ff8300 99.6%);
+}
+
+.book_test_btn:hover {
+  background: linear-gradient(107.28deg, #ff8300 0.82%, #e01e3c 99.6%);
+}
+
+.book_test_btn a {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.calender_icon {
+  position: relative;
+  left: -10px;
+}

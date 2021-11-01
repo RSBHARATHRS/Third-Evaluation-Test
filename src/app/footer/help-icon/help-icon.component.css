@@ -1,0 +1,32 @@
+.help_section {
+  background: linear-gradient(90deg, #e01e3c -8.87%, #ff8300 80.65%);
+  height: 110px;
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+}
+.help_section + footer {
+  margin-top: 0;
+}
+.help_module {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  height: 110px;
+}
+.help_icon {
+  left: -15px;
+  position: relative;
+}
+.help_module h4 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+}
+.help_module h4 a {
+  color: #fff;
+  text-decoration: underline;
+}

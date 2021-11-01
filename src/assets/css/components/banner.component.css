@@ -1,0 +1,78 @@
+/* Banner */
+span.cost {
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    top: -5px;
+    position: relative;
+  }
+  .banner_container {
+    position: relative;
+  }
+  .banner_container img {
+    float: left;
+    width: 65%;
+  }
+  .banner_box {
+    padding: 50px;
+    background: #f5f5f5;
+    border-radius: 4px;
+    width: 38%;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 27px;
+    z-index: 2;
+  }
+  .banner_box h1 {
+    font-size: 38px;
+    line-height: 45px;
+    font-family:"proxima-nova-bold",  sans-serif;
+    font-weight: 800;
+  }
+  .banner_box p {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 20px 0 30px;
+  }
+  .banner_box .link a {
+    color: #e31837;
+    font-size: 14px;
+    font-family:"proxima-nova-bold",  sans-serif;
+    font-weight: 800;
+    float: left;
+  }
+  .banner_box .link a:hover{
+    text-decoration: underline;
+  }
+  .banner_box .link .circle img {
+    width: 18px;
+    float: left;
+    height: 18px;
+    margin-left: 10px;
+  }
+  .banner_bg {
+    width: 249px;
+    height: 249px;
+    background: url(../../banner_bg.png) no-repeat;
+    display: block;
+    top: 259px;
+    left: -150px;
+    position: relative;
+    float: left;
+    opacity: 0.7;
+  }
+  .banner_bg1 {
+    width: 190px;
+    height: 228px;
+    background: url(../../banner_bg1.png) no-repeat;
+    display: block;
+    top: 90px;
+    left: 61px;
+    position: relative;
+    float: left;
+    opacity: 1;
+    z-index: 1;
+  }
+  /* Banner */

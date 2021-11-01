@@ -1,0 +1,66 @@
+/* Video */
+.video_container {
+  margin: 40px 0;
+  float: left;
+  width: 100%;
+}
+.video,
+.vid_con {
+  position: relative;
+}
+.vid_con img {
+  width: 100%;
+}
+.vid_desc {
+  background: #fff;
+  padding: 30px 40px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.14);
+  position: relative;
+  top: -80px;
+}
+.vid_desc p {
+  font-size: 15px;
+  line-height: 25px;
+  padding-bottom: 25px;
+}
+.vid_desc h3 {
+  font-family: "proxima-nova-bold", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 28px;
+  padding-bottom: 25px;
+}
+.vid_icon {
+  background: url(../../assets/icons/vid_icon.png) no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+  cursor: pointer;
+}
+.vid_icon.w60 {
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 30px);
+  top: calc(50% - 30px);
+  z-index: 99;
+  background-size: 100%;
+}
+.vid_desc .link {
+  padding: 0 30px 0 0;
+}
+.vid_desc .link a {
+  color: #e31837;
+  font-family: "proxima-nova-bold";
+}
+.vid_desc .link .circle {
+  padding-left: 10px;
+}
+.vid_desc .link a:hover {
+  text-decoration: underline;
+}
+/* Video */

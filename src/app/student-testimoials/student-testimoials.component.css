@@ -1,0 +1,69 @@
+/* Student testimonial */
+.testimonials {
+  width: 100%;
+  float: left;
+  margin: 40px 0 10px;
+}
+.stu_testimonial {
+  width: 100%;
+  display: flex;
+  z-index: 2;
+  position: relative;
+}
+.stu_testimonial .content,
+.stu_testimonial .image {
+  width: 50%;
+}
+.stu_testimonial .content h3 {
+  font-family: "proxima-nova-bold", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 43px;
+  margin: 10px 0 20px;
+}
+.stu_testimonial .content h5 {
+  font-family: "proxima-nova-bold", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 24px;
+}
+.stu_testimonial .content p {
+  font-size: 15px;
+  padding: 10px 0;
+}
+.stu_testimonial .image img {
+  display: block;
+  float: right;
+}
+.border_bottom {
+  border: 2px solid #dbd6d2;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  top: -30px;
+}
+.arrow_btns {
+  width: 60px;
+  height: 30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.arrow_btns .lft_arw,
+.arrow_btns .rgt_arw {
+  background: url(../../assets/icons/red_arrow_left.svg) no-repeat center;
+  width: 30px;
+  height: 100%;
+  display: flex;
+  border: 1.5px solid #00aaad;
+  border-radius: 100%;
+  height: 28px;
+  cursor: pointer;
+}
+.arrow_btns .rgt_arw {
+  background: url(../../assets/icons/red_arrow_right.svg) no-repeat center;
+  margin-left: 5px;
+}
+/* Student testimonial */

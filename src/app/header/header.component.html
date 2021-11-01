@@ -1,0 +1,66 @@
+<div class="headerCnt">
+  <div class="container">
+  <div class="logoCnt" (click)="goToHome()">
+    <img [src]="logoPath" alt="logo">
+  </div>
+  <div class="navCnt">
+    <nav class="nav">
+      <ul>
+          <li (mouseenter)="displaySubNav()" routerLinkActive="active"><a routerLink="about">About<span><img src="../../assets/icons/arrow.svg" alt=""/></span></a>
+            <div class="sub_menu_cnt" [style.display]="displayProperty" (mouseleave)="hideSubNav()">
+              <div class="sub_list">
+                <ul>
+                  <li><a routerLink="about/about-IELTS">About IELTS</a></li>
+                  <li><a routerLink="about/FAQs">FAQs</a></li>
+                  <li><a href="#">Test Dates</a></li>
+                  <li><a href="#">Test Format</a></li>
+                </ul>
+
+                <ul>
+                  <li><a href="#">General Training</a></li>
+                  <li><a href="#">Speaking Test</a></li>
+                  <li><a href="#">IELTS for the UK</a></li>
+                  <li><a href="#">IELTS for Australia</a></li>
+                </ul>
+
+                <ul>
+                  <li><a href="#">IELTS for Migration</a></li>
+                  <li><a href="#">IELTS for Study</a></li>
+                  <li><a href="#">IELTS for Agents</a></li>
+                  <li><a href="#">IELTS for Teachers</a></li>
+                </ul>
+              </div>
+
+              <div class="list_image">
+                <div class="mask">
+                  <img src="../../assets/Image.jpg" alt="" />
+                  <span class="mask_img"></span>
+                </div>
+                <h4>
+                  IELTS Writing Task steps towards a Band 8
+                </h4>
+                <div class="link">
+                  <a href="#">Read more
+                    <span class="circle"
+                      ><img src="../../assets/icons/circle_arrow.svg" alt=""/></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li routerLinkActive="active"><a routerLink="prepare" (mouseenter)="hideSubNav()">Prepare</a></li>
+          <li routerLinkActive="active"><a routerLink="result">Result</a></li>
+          <li routerLinkActive="active"><a routerLink="find-a-test-centers">Find a test center</a></li>
+      </ul>
+  </nav>
+  </div>
+  <div class="right_menu">
+  <div class="book_test_btn">
+    <a href="#"><img class="calender_icon"
+                     src="../../assets/icons/calendar.svg"
+                     alt="calendar Icon"/>Book a test</a>
+  </div>
+</div>
+  </div>
+</div>
+<div class="clr"></div>
