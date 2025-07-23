@@ -16,5 +16,4 @@ export class VideoCoverComponent implements OnInit {
   ngOnInit(): void {
     this.content = this.dataService.videoSectionContent;
   }
-
 }
