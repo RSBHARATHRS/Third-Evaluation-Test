@@ -16,12 +16,10 @@ export class ImgPathService {
     }
   }
 
-  //will return path for card two images
   getCardTwoImgPaths() {
     return this.cardTwoImgPaths;
   }
 
-  //will return path for card three images
   getCardThreeImgPaths() {
     return this.cardThreeImgPaths;
   }
