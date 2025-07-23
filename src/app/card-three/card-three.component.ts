@@ -18,7 +18,4 @@ export class CardThreeComponent implements OnInit {
     this.imgPaths = this.imgPathService.getCardThreeImgPaths();
     this.content = this.dataService.cardTreeContent;
   }
-
-
-
 }
